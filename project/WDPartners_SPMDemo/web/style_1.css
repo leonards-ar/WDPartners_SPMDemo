@@ -1,0 +1,74 @@
+/* CSS Document */
+
+
+
+caption {
+	padding: 0 0 5px 0;
+	width: 700px;	 
+	font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+ th {
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	
+	
+	
+	letter-spacing: 2px;
+	
+	text-align: left;
+	padding: 6px 6px 6px 12px;
+	background: #CAE8EA url(images/table.gif) ;
+}
+#buscar {
+	
+	font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	
+
+	
+}
+ th.nobg {
+	
+	
+	background: none;
+}
+ td.resultado { border:1px solid #a0b646; }
+ 
+ table.resultado { border:1px solid #a0b646; }
+ 
+#resultado {
+float:left;
+margin-top:30px;
+font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	
+}
+ td {
+	
+	
+	background: #fff;
+	padding: 6px 6px 6px 12px;
+	/*color: #4f6b72;*/
+}
+
+
+  td.alt {
+	background: #a0b646;
+	color: #797268;
+}
+
+ th.spec {
+	
+	
+	background-color:#FFFFFF;
+	
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+ th.specalt {
+	
+	
+	background: #f5fafa url(images/bullet2.gif) no-repeat;
+	font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}
