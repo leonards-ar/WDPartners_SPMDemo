@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<script type="text/javascript" src="png.js"></script>
+		<title>Scheduling Manager</title>
+		<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+		<link href="style_1.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="contenidos">
+			<div id="wrapper">
+				<div id="header">
+					<h1><img src="images/logo.png"  alt="SPM" /></h1>
+					<div id="nav">
+						<div class="blue">
+							<div id="slatenav">
+								<ul>
+									<li><a href="index.htm" title="Home">Home</a></li>
+									<li><a href="add.htm" title="Add">Add</a></li>
+									<li><a href="search.htm" title="Search" class="current">Search</a></li>
+									<li><a href="schedule.htm" title="Hours">Schedule</a></li>
+									<li><a href="hours.htm" title="Schedule">Reports</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="body">
+					<div id="body-left">
+						<form action="">
+							<table id="buscar" width="651" height="124" border="0">
+								<tr>
+									<td>Head Office:</td>
+									<td>
+										<select name="select" selected="selected">
+											<option value="gerente">Please select</option>
+											<option value="gerente">Phipsborough</option>
+											<option value="gerente">Camden</option>
+											<option value="gerente" selected="selected">Ranelagh</option>
+											<option value="gerente">Christchurch</option>
+											<option value="presi">South Lake</option>
+										</select>
+									</td>
+									<td>Position:</td>
+									<td>
+										<select name="select">
+											<option value="gerente" selected="selected">Please select</option>
+											<option value="presi">Manager</option>
+											<option value="presi">Supervisor</option>
+											<option value="presi">CSR</option>
+											<option value="presi">MTO</option>
+											<option value="presi">Baker</option>
+											<option value="presi">Utility</option>
+											<option value="presi">Catering</option>
+											<option value="presi">MTO</option>
+											<option value="presi">Floor Stuff</option>
+										</select>
+									</td>
+								</tr>
+<tr>
+ <td>Surname</td>
+ <td><input type="text" name="textfield7" /></td>
+									<td>Employee Number </td>
+									<td><input type="text" name="textfield8" /></td>
+</tr>
+								<tr>
+									<td colspan="4"><a href="results.htm"><image src="images/btn_search.gif"/></a></td>
+								</tr>
+								<tr>
+									<td colspan="2">&nbsp;</td>
+									<td colspan="2">&nbsp;</td>
+								</tr>
+							</table>
+							<div id="resultado">
+								<table class="resultado" width="733" height="122" cellspacing="0" id="mytable" >
+									<tr>
+										<th width="101" height="29"  scope="col"><div align="center">Employee</div></th>
+										<th width="100" scope="col" ><div align="center">Surname</div></th>
+										<th width="95" scope="col" ><div align="center">Name</div></th>
+										<th width="114" scope="col" ><div align="center">Main Position</div></th>
+										<th width="100" scope="col" ><div align="center">Head Office</div></th>
+										<th width="75" scope="col" ><div align="center">Modify</div></th>
+										<th width="99" scope="col" ><div align="center">Delete</div></th>
+									</tr>
+									<tr>
+										<td class="resultado"> <div align="center">1015670</div></td>
+										<td class="resultado" > <div align="center">Di Negro</div></td>
+										<td class="resultado"><div align="center">Joe</div></td>
+										<td class="resultado"><div align="center">Supervisor</div></td>
+										<td class="resultado"><div align="center">Ranelagh</div></td>
+										<td class="resultado"><div align="center"><a href="modify.htm"><img src="images/edit_add_16x16.png" width="16" height="16" /></a></div></td>
+										<td class="resultado"><div align="center"><img src="images/delete_obj_16x16.gif" width="16" height="16" /></div></td>
+									</tr>
+									<tr>
+										<td class="resultado"> <div align="center">212345</div></td>
+										<td class="resultado"> <div align="center">Gonzalez</div></td>
+										<td class="resultado"><div align="center">John</div></td>
+										<td class="resultado"><div align="center">MTO</div></td>
+										<td class="resultado"><div align="center">Ranelagh</div></td>
+										<td class="resultado"><div align="center"><a href="modify.htm"><img src="images/edit_add_16x16.png" width="16" height="16" /></a></div></td>
+										<td class="resultado"><div align="center"><img src="images/delete_obj_16x16.gif" width="16" height="16" /></div></td>
+									</tr>
+									<tr>
+										<td class="resultado"> <div align="center">101678</div></td>
+										<td class="resultado"><div align="center">Olivieri</div></td>
+										<td class="resultado"><div align="center">Dante</div></td>
+										<td class="resultado"><div align="center">Baker</div></td>
+										<td class="resultado"><div align="center">Ranelagh</div></td>
+										<td class="resultado"><div align="center"><a href="modify.htm"><img src="images/edit_add_16x16.png" width="16" height="16" /></a></div></td>
+										<td class="resultado"><div align="center"><img src="images/delete_obj_16x16.gif" width="16" height="16" /></div></td>
+									</tr>
+									<tr>
+										<td class="resultado"> <div align="center">101578</div></td>
+										<td class="resultado"><div align="center">Wilkinson</div></td>
+										<td class="resultado"><div align="center">Mark</div></td>
+										<td class="resultado"><div align="center">MTO</div></td>
+										<td class="resultado"><div align="center">Ranelagh</div></td>
+										<td class="resultado"><div align="center"><a href="modify.htm"><img src="images/edit_add_16x16.png" width="16" height="16" /></a></div></td>
+										<td class="resultado"><div align="center"><img src="images/delete_obj_16x16.gif" width="16" height="16" /></div></td>
+									</tr>
+								</table>
+							</div>
+	</body>
+</html>
