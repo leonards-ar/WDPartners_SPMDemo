@@ -148,20 +148,15 @@ function showFlatCalendar() {
 	<div id="wrapper">
 		<div id="header">
 			<h1><img src="images/logo.png"  alt="SPM"></h1>
-			
 			<div id="nav">
-				<div class="blue">
-	<div id="slatenav">
+			<div class="blue">
+			<div id="slatenav">
 	<ul>
+	<li><a href="index.htm" title="Home">Home</a></li>
+	<li><a href="add.htm" title="Add" class="current">Add</a></li>
 	<li><a href="search.htm" title="Search" >Search</a></li>
-	<li><a href="add.htm" title="Add" class="current">add</a></li>
-
-	<li><a href="modify.htm" title="Modify">Modify</a></li>
-	<li><a href="hours.htm" title="Hours">hours</a></li>
-	<li><a href="schedule.htm" title="Schedule">schedule</a></li>
-	
-
-	
+	<li><a href="schedule.htm" title="Hours">Schedule</a></li>
+	<li><a href="hours.htm" title="Schedule">Reports</a></li>
 	</ul>
 	</div>
 	</div>
@@ -171,33 +166,29 @@ function showFlatCalendar() {
 		</div>
 		<div id="body">
 			<div id="body-left">
-				<h2>Texto de welcome</h2>
-			<p>TExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExtTExt</p>
-			
-
-				  <br>
-<div id="datospersonales"><p>Datos Personales</p> </div>
+			<p><b>Mandatory fields are marked with *.</b></p>
+<div id="datospersonales"><p>Personal Data</p> </div>
 <br>
 <table width="260" height="225" border="0" align="center" cellspacing="6">
   <tr>
-    <td width="75"> Name:</td>
+    <td width="75">*Name:</td>
     <td width="163"><input type="text" name="textfield" /></td>
   </tr>
   <tr>
-    <td>Surname:</td>
+    <td>*Surname:</td>
     <td><input type="text" name="textfield2" /></td>
   </tr>
   <tr>
-    <td>Phone:</td>
+    <td>*Phone:</td>
     <td><input type="text" name="textfield3" /></td>
   </tr>
   <tr>
-    <td>Mobile Phone:</td>
-    <td><input type="text" name="textfield4" /></td>
+    <td>*Address:</td>
+    <td><input type="text" name="textfield5" /></td>
   </tr>
   <tr>
-    <td>Address:</td>
-    <td><input type="text" name="textfield5" /></td>
+    <td>Birth Date:</td>
+    <td><input type="text" name="textfield3" /></td>
   </tr>
   <tr>
     <td>Email:</td>
@@ -206,117 +197,62 @@ function showFlatCalendar() {
 </table>
 
 
-<div align="center"  id="datostrabajo"><p>Datos Trabajo</p> </div>
+<div align="center"  id="datostrabajo"><p>Employee Information</p> </div>
 <br>
 <table width="260" height="225" border="0" align="center" cellspacing="6">
   <tr>
-    <td width="94"> Employee Number
-
-:</td>
+    <td width="94">Employee Number:</td>
     <td width="144"><input type="text" name="textfield" /></td>
   </tr>
   <tr>
-    <td> Head Office:</td>
-    <td><select name="select">
-      <option value="gerente">Gerente</option>
-      <option value="presi" selected="selected">Presidente</option>
+    <td>Head Office:</td>
+    <td><select name="select" selected="selected">
+      	<option value="gerente">Please select</option>
+      	<option value="gerente">Phipsborough</option>
+		<option value="gerente">Camden</option>
+		<option value="gerente">Ranelagh</option>
+		<option value="gerente">Christchurch</option>
+      	<option value="presi">South Lake</option>
     </select></td>
   </tr>
   <tr>
-    <td> Main position
-
-:</td>
+    <td>Main position:</td>
     <td><select name="select">
-      <option value="gerente" selected="selected">Obrero</option>
-      <option value="presi">oficial</option>
+      <option value="gerente" selected="selected">Please select</option>
+      <option value="presi">Manager</option>
+      <option value="presi">Supervisor</option>
+      <option value="presi">CSR</option>
+      <option value="presi">MTO</option>
+      <option value="presi">Baker</option>
+      <option value="presi">Utility</option>
+      <option value="presi">Catering</option>
+      <option value="presi">MTO</option>
+      <option value="presi">Floor Stuff</option>
     </select></td>
   </tr>
   <tr>
-    <td> DOB :</td>
-    <td><input type="text" name="textfield3" /></td>
-  </tr>
-  <tr>
-    <td> PPS :</td>
+    <td>PPS Number:</td>
     <td><input type="text" name="textfield4" /></td>
   </tr>
   <tr>
-    <td> Start Date :</td>
+    <td>Start Date:</td>
     <td><input type="text" name="textfield42" /></td>
   </tr>
   <tr>
-    <td> Finish Datel:</td>
+    <td>Finish Date:</td>
     <td><input type="text" name="textfield6" /></td>
   </tr>
-</table>
-
-<div align="center"  id="datosdisponibilidad"><p>Disponibilidad</p> </div>
-<br>
-<table width="362" height="277" border="0" align="center" cellspacing="6">
   <tr>
-    <td width="65"> Available:</td>
-    <td width="232"><select name="select2" size="5" multiple="multiple">
-      <option>uno</option>
-      <option>dos</option>
-      <option>tres</option>
-    </select>
-      <select name="select3" size="5" multiple="multiple">
-        <option>si</option>
-        <option>no</option>
-        <option>nose</option>
-          </select></td>
-  </tr>
-  <tr>
-    <td height="59"> Can work :</td>
-    <td><table width="272" height="51" border="0">
-      <tr>
-        <td width="35">Lunes </td>
-        <td width="37">Martes</td>
-        <td width="49">Miercoles</td>
-        <td width="38">Jueves</td>
-        <td width="45">Viernes</td>
-		<td width="29">Todos</td>
-      </tr>
-      <tr>
-        <td><div align="center">
-          <input type="checkbox" name="checkbox" value="checkbox" />
-        </div></td>
-        <td><div align="center">
-          <input type="checkbox" name="checkbox2" value="checkbox" />
-        </div></td>
-        <td><div align="center">
-          <input type="checkbox" name="checkbox3" value="checkbox" />
-        </div></td>
-        <td><div align="center">
-          <input type="checkbox" name="checkbox4" value="checkbox" />
-        </div></td>
-        <td><div align="center">
-          <input type="checkbox" name="checkbox5" value="checkbox" />
-        </div></td>
-		  <td><div align="center">
-          <input type="checkbox" name="checkbox5" value="checkbox" />
-        </div></td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr>
-    <td height="31"> Load Type :</td>
-    <td>Service
-      <input name="radiobutton" type="radio" value="radiobutton" />
-Procces
-<input name="radiobutton" type="radio" value="radiobutton" /></td>
-  </tr>
-  <tr>
-    <td> Comments :</td>
+    <td>Aditional Info:</td>
     <td><textarea name="textarea"></textarea></td>
   </tr>
 </table>
-
 <br>
 <table width="200" border="0" align="right">
   <tr>
     <td width="47">&nbsp;</td>
-    <td width="51"><input type="image" name="search2" value="" src="images/send.gif" /></td>
-    <td width="88"><input type="image" name="search3" value="" src="images/reset.gif" /></td>
+    <td width="51"><a href="index.htm"><image src="images/send.gif"/></a></td>
+    <td width="88"><a href="index.htm"><image src="images/reset.gif"/></a></td>
   </tr>
 </table>
 <br>
